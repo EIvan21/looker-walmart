@@ -9,6 +9,7 @@ view: stores {
   dimension: store {
     type: number
     sql: ${TABLE}.Store ;;
+    primary_key: yes
   }
 
   dimension: type {
